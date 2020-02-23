@@ -1,0 +1,17 @@
+{
+  "name": "just_javascript",
+  "version": "1.0.0",
+  "description": "Sandbox && playground for JavaScript in the browser.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Ryan Boris <ryan.boris@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
