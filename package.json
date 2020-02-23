@@ -4,7 +4,7 @@
   "description": "Sandbox && playground for JavaScript in the browser.",
   "main": "./src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose --watch"
   },
   "keywords": [
     "javascript"
@@ -12,6 +12,10 @@
   "author": "Ryan Boris <ryan.boris@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1"
   }
 }
